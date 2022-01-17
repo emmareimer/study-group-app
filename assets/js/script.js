@@ -22,9 +22,10 @@ function readForm (event) {
         storeName();
     }
     else {
-        alert("Must include name, dummie.")
+        alert("Must include name, dummie.");
     }
 
+    studentName.value = "";
 }
 
 
